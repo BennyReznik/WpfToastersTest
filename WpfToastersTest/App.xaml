@@ -1,0 +1,24 @@
+﻿<Application x:Class="WpfToastersTest.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfToastersTest">
+    <!--xmlns:controls="clr-namespace:Notifications.Wpf.Controls;assembly=Notifications.Wpf"
+             xmlns:micro="clr-namespace:Caliburn.Micro;assembly=Caliburn.Micro"
+             xmlns:cal="clr-namespace:Caliburn;assembly=Caliburn.Micro"-->
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary>
+                    <local:Bootstrapper x:Key="Bootstrapper"></local:Bootstrapper>
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+         <!--<Style TargetType="controls:Notification">
+             <Style.Resources>
+                 <DataTemplate DataType="{x:Type micro:PropertyChangedBase}">
+                     <ContentControl cal:View></ContentControl>
+                 </DataTemplate>
+             </Style.Resources>
+         </Style>-->
+    </Application.Resources>
+</Application>
