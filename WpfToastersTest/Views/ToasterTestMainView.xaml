@@ -18,9 +18,12 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto" />
             <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
         </Grid.ColumnDefinitions>
 
         <StackPanel Grid.Row="0" Grid.Column="0" >
+            <Label Content="Notifications.WPF"></Label>
+
             <Button x:Name="RaiseInformationToast" Content="Raise Information Toast" 
                     Width="250" Height="50" FontSize="20" Margin="10,10,10,5"/>
 
@@ -31,6 +34,22 @@
                     Width="250" Height="50" FontSize="20" Margin="10,5,10,10"/>
 
             <Button x:Name="RaiseErrorToast" Content="Raise Error Toast" 
+                    Width="250" Height="50" FontSize="20" Margin="10,5,10,10"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="0" Grid.Column="1" >
+            <Label Content="ToastNotifications"></Label>
+
+            <Button x:Name="RaiseInformationToast1" Content="Raise Information Toast" 
+                    Width="250" Height="50" FontSize="20" Margin="10,10,10,5"/>
+
+            <Button x:Name="RaiseSuccessToast1" Content="Raise Success Toast" 
+                    Width="250" Height="50" FontSize="20" Margin="10,5,10,10"/>
+
+            <Button x:Name="RaiseWarningToast1" Content="Raise Warning Toast" 
+                    Width="250" Height="50" FontSize="20" Margin="10,5,10,10"/>
+
+            <Button x:Name="RaiseErrorToast1" Content="Raise Error Toast" 
                     Width="250" Height="50" FontSize="20" Margin="10,5,10,10"/>
         </StackPanel>
 
